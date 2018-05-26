@@ -1,0 +1,16 @@
+In this article I will discuss how you can get information about your system such as available operating system, hardware, and domain.  
+
+I have used three different ways.
+
+The first way is using the SystemInformation class. Which you can find in the System.Windows.Forms namespace. This class provides information about the operating system. This class has properties. You simply call the property. For example, this code gives the primary monitor size.
+
+SystemInformation.PrimaryMonitorSize.ToString ();
+
+The second way is to use the Environment class, which you can find in the System namespace. This Important class provides information about the current environment and platform. For example, the following code gives you the user domain name, and operating system version.
+
+System.Environment.UserDomainName;
+System.Environment.OSVersion.ToString ();
+
+The third way is using the Registry class, which you can find in the Microsoft.Win32 namespace. This very important class helps you to access values and subkeys in Windows registry.
+
+See the attached code for more details. 
