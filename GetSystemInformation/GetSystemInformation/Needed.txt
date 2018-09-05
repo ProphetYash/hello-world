@@ -1,6 +1,0 @@
-Windows Version
-RAM
-Display Adapter Info
-Processor
-
-* Hard Disk
